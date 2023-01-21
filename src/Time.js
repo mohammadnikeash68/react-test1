@@ -89,9 +89,10 @@ class Time extends Component {
             {this.props.isLight ? "black" : "light"}
           </button>
         </div>
-        <TimeList>
+        {/* <TimeList>
             {this.context.arrTime}
-        </TimeList>
+        </TimeList> */}
+        <TimeList/>
       </>
     );
   }
